@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.ForEach
 {
-    class ForEachClass
+    class ForEachLoopExamples
     {
-        public void ForEachMethod()
+        // Method to demonstrate ForEach loop to display fruits.
+        public void DisplayFruitsUsingForEach()
         {
             // Array of strings.
             string[] fruits = { "Apple", "Banana", "Cherry", "Date", "Elderberry" };
@@ -20,10 +17,11 @@ namespace SampleApp.C__Basics.ForEach
             }
         }
 
-        public void ForEach1()
+        // Method to demonstrate ForEach loop to display cars and even numbers.
+        public void DisplayCarsAndEvenNumbers()
         {
             string[] cars = { "Tata", "Toyota", "Mahindra", "Honda", "Suzuki" };
-            int[] EvenNumbers = { 2, 4, 6, 8, 10 };
+            int[] evenNumbers = { 2, 4, 6, 8, 10 };
 
             // Iterate over and print each car name.
             foreach (string car in cars)
@@ -32,7 +30,7 @@ namespace SampleApp.C__Basics.ForEach
             }
 
             // Iterate over and print each even number.
-            foreach (int even in EvenNumbers)
+            foreach (int even in evenNumbers)
             {
                 Console.WriteLine(even);
             }

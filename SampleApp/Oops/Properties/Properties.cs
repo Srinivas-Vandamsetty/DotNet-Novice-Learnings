@@ -7,22 +7,11 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Oops.Properties
 {
-    class Properties
+    class PersonProperties
     {
         public string Name { get; set; }
     }
 
-
-    class PropertiesHandler
-    {
-        public static void PropertiesMethod()
-        {
-            Properties newobj = new Properties();
-            newobj.Name = "SaiSrinu";
-            Console.WriteLine(newobj.Name);
-        }
-
-    }
 }
 
 

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.SwitchCase
 {
-    class SwitchCaseClass
+    class NumberSelectorClass
     {
-        public void SwitchMethod()
+        public void SelectNumber()
         {
             // Prompt the user to enter a number between 1 and 5.
             Console.WriteLine("Enter a number between 1 and 5:");

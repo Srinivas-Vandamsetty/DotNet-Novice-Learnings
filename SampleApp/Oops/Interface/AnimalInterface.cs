@@ -8,7 +8,7 @@ namespace SampleApp.Oops.Interface
 {
     interface IAnimal
     {
-        void MakeSound(); // Method declaration
+        void MakeSound();
     }
 
     class DogInterface : IAnimal

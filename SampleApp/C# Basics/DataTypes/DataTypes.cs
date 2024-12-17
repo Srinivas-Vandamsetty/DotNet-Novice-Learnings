@@ -1,28 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.DataTypes
 {
-    class DataTypesClass
+    class DataTypeExamples
     {
-        public void DataTypesMethod()
+        public void DisplayDataTypes()
         {
             // Declare and initialize variables of different data types.
-            int number = 2147483647;
-            long value = -9223372036854775;
-            double points = 999.999999;
-            char name = 'B';
-            string names = "Ms Dhoni";
+            int maxNumber = 2147483647;
+            long largeValue = -9223372036854775;
+            double decimalPoints = 999.999999;
+            char initial = 'B';
+            string fullName = "Ms Dhoni";
 
             // Print the values of the variables.
-            Console.WriteLine(number);
-            Console.WriteLine(value);
-            Console.WriteLine(points);
-            Console.WriteLine(name);
-            Console.WriteLine(names);
+            Console.WriteLine(maxNumber);
+            Console.WriteLine(largeValue);
+            Console.WriteLine(decimalPoints);
+            Console.WriteLine(initial);
+            Console.WriteLine(fullName);
         }
     }
 }

@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.UserInput
 {
-    class UserInputClass
+    class UserInputExamples
     {
-        // User Input.
-
-        public void UserInputMethod()
+        // Method to collect user input and display the results.
+        public void CollectAndDisplayUserInput()
         {
             // Prompt the user to enter their name.
             Console.WriteLine("Please Enter Your Name");

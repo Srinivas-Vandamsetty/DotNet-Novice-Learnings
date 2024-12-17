@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SampleApp.C__Basics.ForLoop
+namespace SampleApp.C__Basics.Loops
 {
-    class ForLoopClass
+    class ForLoopExamples
     {
-        public void ForLoopMethod()
+        // Demonstrates a for loop with a continue statement.
+        public void DisplayNumbersSkippingFive()
         {
             // Loop from 1 to 9, skipping 5.
             for (int i = 1; i < 10; i++)
@@ -22,7 +19,8 @@ namespace SampleApp.C__Basics.ForLoop
             }
         }
 
-        public void ForLoop1()
+        // Demonstrates a for loop that prints even numbers.
+        public void DisplayEvenNumbers()
         {
             // Loop to print even numbers between 2 and 16.
             for (int i = 2; i < 16; i = i + 2)

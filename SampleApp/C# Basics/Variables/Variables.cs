@@ -1,29 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-public class Variables
+
+namespace SampleApp.C__Basics.Variables
 {
-    // Variables.
-
-    public void VariablesMethod()
+    class VariableExamples
     {
-        // Declare and initialize different types of variables.
-        int age = 25;
-        double points = 99.9;
-        char name = 'A';
-        string firstName = "Sai";
-        string secondName = "Srinivas";
-        string fullName = firstName + " " + secondName;
-        bool result = true;
+        // Demonstrates different types of variables and their usage.
 
-        // Print the values of the variables.
-        Console.WriteLine(age);
-        Console.WriteLine(points);
-        Console.WriteLine(name);
-        Console.WriteLine(fullName);
-        Console.WriteLine(result);
+        public void DisplayVariableValues()
+        {
+            // Declare and initialize different types of variables.
+            int age = 25;
+            double points = 99.9;
+            char initial = 'A';
+            string firstName = "Sai";
+            string lastName = "Srinivas";
+            string fullName = firstName + " " + lastName;
+            bool isSuccessful = true;
+
+            // Print the values of the variables.
+            Console.WriteLine(age);
+            Console.WriteLine(points);
+            Console.WriteLine(initial);
+            Console.WriteLine(fullName);
+            Console.WriteLine(isSuccessful);
+        }
     }
 }

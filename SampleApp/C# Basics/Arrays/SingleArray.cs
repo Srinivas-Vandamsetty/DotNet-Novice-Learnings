@@ -1,31 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.Arrays
 {
     // Class to demonstrate single-dimensional arrays.
-    class SingleArrayClass
+    class SingleDimensionalArrayExamples
     {
-        public void ArrayMethod()
+        public void DisplayArrayElementAtIndexThree()
         {
             // Initialize an array with a fixed size.
-            int[] EvenNumbers = new int[5];
+            int[] evenNumbers = new int[5];
 
-            Console.WriteLine(EvenNumbers[3]);
+            Console.WriteLine(evenNumbers[3]);
         }
 
-        public void Array1()
+        public void DisplayElementAtIndexThree()
         {
             // Declare and initialize an array.
-            int[] OddNumbers = { 1, 3, 5, 7, 9 };
+            int[] oddNumbers = { 1, 3, 5, 7, 9 };
 
-            Console.WriteLine(OddNumbers[3]);
+            Console.WriteLine(oddNumbers[3]);
         }
 
-        public void Array2()
+        public void ModifyAndDisplayArrayElement()
         {
             // Modify the third element of the array.
             string[] bikes = { "Enfield", "Yamaha", "Bajaj", "Honda" };
@@ -34,7 +30,7 @@ namespace SampleApp.C__Basics.Arrays
             Console.WriteLine(bikes[2]);
         }
 
-        public void ArrayLoop()
+        public void DisplayArrayElementsWithIndex()
         {
             // Declare and initialize a single-dimensional array.
             int[] numbers = { 10, 20, 30, 40, 50 };

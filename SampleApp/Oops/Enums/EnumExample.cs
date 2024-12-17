@@ -4,20 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Oops.Encapsulation
+namespace SampleApp.Oops.Enums
 {
-    class EncapsulationClass
-    {
-        public string Names
+       public enum Colors
         {
-            get; set;
+            Red,
+            Green,
+            Blue,
+            Yellow
         }
-
-    }
-
 }
-
-
-
-
 

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.C__Basics.Arrays
 {
-    class MultiArrayClass
+    class MultiDimensionalArrayExamples
     {
-        public void MultiArrayMethod()
+        public void DisplayMatrixElements()
         {
             // Declare and initialize a multi-dimensional array (3x3)
             int[,] matrix = {

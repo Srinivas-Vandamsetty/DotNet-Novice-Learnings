@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SampleApp.C__Basics.WhileLoop
+namespace SampleApp.C__Basics.Loops
 {
-    public class WhileLoopClass
+    public class WhileLoopExamples
     {
-        // While Loop Method 1.
-        public void WhileLoopMethod()
+        // Demonstrates a simple while loop.
+        public void DisplayNumbersUpToTen()
         {
             int i = 1;
 
@@ -24,8 +20,8 @@ namespace SampleApp.C__Basics.WhileLoop
             }
         }
 
-        // While Loop Method 2.
-        public void While1()
+        // Demonstrates a while loop with a break statement.
+        public void DisplayNumbersWithBreak()
         {
             int i = 1;
 
@@ -44,8 +40,8 @@ namespace SampleApp.C__Basics.WhileLoop
             }
         }
 
-        // While Loop Method 3.
-        public void While2()
+        // Demonstrates a while loop with a continue statement.
+        public void DisplayNumbersWithContinue()
         {
             int i = 1;
 
